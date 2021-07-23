@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+/* UTILITIES */
+
+* {
+  font-family: 'montserrat', sans-serif;
+}
+
+.details {
+  font-size: 24px;
+  line-height: 38px;
+  color: #737373;
+}
+.details-light {
+  font-size: 24px;
+  line-height: 38px;
+  color: white;
+}
+
+.cta {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+  color: white;
+  background-color: #f94a0c;
+  padding: 15px 40px;
+  border: 1px solid #f94a0c;
+  border-radius: 50px;
+}
+
+.cta:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* NAVBAR */
+
+.navbar {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-link {
+  color: black !important;
+  padding-right: 100px !important;
+}
+
+.active {
+  color: #f94a0c !important;
+}
+
+.nav-link:hover {
+  color: #f94a0c !important;
+}
+
+/* HERO SECTION */
+
+.hero {
+  position: relative;
+}
+
+.hero-info {
+  position: absolute;
+  top: 0%;
+  left: 20%;
+}
+
+.hero-sub-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.hero-title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.phone {
+  position: absolute;
+  top: 330px;
+}
+
+.hr {
+  position: relative;
+  top: 500px;
+}
