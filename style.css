@@ -20,7 +20,6 @@
 .cta {
   font-size: 24px;
   font-weight: 700;
-  line-height: 36px;
   text-decoration: none;
   color: white;
   background-color: #f94a0c;
@@ -44,7 +43,7 @@
 
 .nav-link {
   color: black !important;
-  padding-right: 100px !important;
+  padding-right: 4vw !important;
 }
 
 .active {
@@ -58,28 +57,40 @@
 /* HERO SECTION */
 
 .hero {
-  position: relative;
+  background-image: url(images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.hero-info {
-  position: absolute;
-  top: 0%;
-  left: 20%;
+.info {
+  padding: 50px 0 150px;
 }
 
 .hero-sub-text {
   font-size: 24px;
   font-weight: 700;
-  line-height: 36px;
 }
 
 .hero-title {
   font-size: 58px;
   font-weight: 700;
-  line-height: 80px;
+  width: 75%;
+  margin: 20px auto;
 }
 
-.phone {
+.hero-details {
+  margin-bottom: 30px;
+}
+
+.playstore {
+  margin-right: 20px;
+}
+.app-store {
+  margin-left: 20px;
+}
+
+/* .phone {
   position: absolute;
   top: 330px;
 }
@@ -87,4 +98,33 @@
 .hr {
   position: relative;
   top: 500px;
+} */
+
+@media only screen and (max-width:576px) {
+  .cta {
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    width: 180px;
+  }
+  
+  .hero-sub-text {
+    font-size: 18px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    width: 90%;
+  }
+
+  .details,
+  .details-light {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .hero-title {
+    width: 100%;
+  }
 }
